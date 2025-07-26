@@ -1,24 +1,18 @@
 Tech Stack:
-pandas, numpy – Data manipulation
-
-matplotlib, seaborn – Visualization
-
-scikit-learn – ML modeling & preprocessing
-
-xgboost – Gradient boosting classifier
+pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
 
 Key Features:
-Synthetic Dataset Generator: Simulates player data including login history, session behavior, in-game purchases, and engagement.
+-Synthetic Dataset Generator: Simulates player data including login history, session behavior, in-game purchases, and engagement.
 
-Feature Engineering: Extracts meaningful features like time since last login and scales numerical inputs.
+-Feature Engineering: Extracts meaningful features like time since last login and scales numerical inputs.
 
-Classification Models: Implements Random Forest and XGBoost classifiers to predict churn.
+-Classification Models: Implements Random Forest and XGBoost classifiers to predict churn.
 
-Model Evaluation: Uses precision, recall, F1-score, and confusion matrix to evaluate predictions.
+-Model Evaluation: Uses precision, recall, F1-score, and confusion matrix to evaluate predictions.
 
-Feature Importance: Visualizes key factors contributing to player churn.
+-Feature Importance: Visualizes key factors contributing to player churn.
 
-Retention Strategy Engine: Assigns action plans based on churn risk score thresholds.
+-Retention Strategy Engine: Assigns action plans based on churn risk score thresholds.
 
 
 Example Output
@@ -36,10 +30,10 @@ Sample Retention Strategies:
 
 
 To-Do / Future Improvements:
-Integrate with real Steam dataset or API
+-Integrate with real Steam dataset or API
 
-Deploy as a REST API or interactive dashboard
+-Deploy as a REST API or interactive dashboard
 
-A/B test strategy effectiveness on real users
+-A/B test strategy effectiveness on real users
 
-Add deep learning models (e.g., LSTM on sequential data)
+-Add deep learning models (e.g., LSTM on sequential data)
